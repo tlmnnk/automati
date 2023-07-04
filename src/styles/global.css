@@ -1,8 +1,8 @@
 :root {
-  --clr-text:       hsl(204, 100%, 1%);
-  --clr-surface:    hsl(0, 0, 100%);
+  --clr-text:       hsl(0, 0, 100%);
+  --clr-surface:    hsl(204, 100%, 1%);
   --clr-primary:    hsl(329, 85%, 53%);
-  --clr-secondary:  hsl(208, 83%, 93%);
+  --clr-secondary:  hsl(208, 83%, 13%);
   --clr-accent:     hsl(89, 85%, 33%);
 
   --ff-base: 'PT Sans', sans-serif;
