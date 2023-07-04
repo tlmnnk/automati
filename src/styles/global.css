@@ -50,7 +50,7 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
   font-family: var(--ff-accent);
-  line-height: 1.1;
+  line-height: 1.4;
   text-wrap: balance;
 }
 
@@ -68,8 +68,10 @@ h3 {
 }
 
 .container {
+  margin-top: 32px;
   margin-inline: auto;
-  width: min(100% - 3rem, 65ch);
+  /* width: min(100% - 3rem, 95ch); */
+  max-width: 1280px;
 }
 
 .flow > :where(:not(:first-child)) {
@@ -104,4 +106,40 @@ pre {
 }
 pre > code {
   all: unset;
+}
+
+.accent {
+  color: var(--clr-primary);
+}
+
+.button {
+  padding: 16px 32px;
+  display: inline-block;
+  background-color: #fff;
+  font-family: var(--ff-accent);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--clr-primary);
+}
+
+.button_outline {
+  background-color: transparent;
+  border: 1px solid var(--clr-primary);
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.mt-auto {
+  margin-top: auto;
 }
