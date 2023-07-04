@@ -39,13 +39,14 @@
 
 html {
   color-scheme: light dark;
+  background-color: rgb(9, 10, 20);
 }
 
 body {
   font-family: var(--ff-base);
   font-size: var(--fs-300);
   line-height: 1.6;
-  color: var(--clr-text);
+  color: hsl(0, 0, 100%);;
 }
 
 h1,h2,h3,h4,h5,h6 {
